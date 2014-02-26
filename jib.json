@@ -1,0 +1,24 @@
+{	"rules": [
+		{	"type": "task",
+			"name": "foobar",
+			"commands": [
+				{	"type": "shell",
+					"command": "echo",
+					"args": ["hello"]
+				},
+				{	"type": "shell",
+					"command": "echo",
+					"args": ["goodbye"]
+				},
+				{	"type": "script",
+					"interpreter": "ruby",
+					"script": "puts 'hello from ruby!'; p [1,2,3]"
+				},
+				{	"type": "script",
+					"interpreter": "python",
+					"script": "print 'hello from python!'"
+				}
+			]
+		}
+	]
+}

@@ -1,6 +1,6 @@
 var child 	= require('child_process');
 
-var shakefile = require('./shakefile');
+var shakefile = require('./jib');
 
 var command = "foobar";
 
