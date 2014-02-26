@@ -1,0 +1,12 @@
+
+
+
+# Tasks do not depend on files and hence always run
+task foobar:
+	$ echo hello
+	$ echo goodbye
+	#!ruby
+		puts 'hello from ruby!'
+		p [1,2,3]
+	#!python
+		print 'hello from python!'
